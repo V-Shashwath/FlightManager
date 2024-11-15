@@ -1,0 +1,132 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('flight2.jpg'); /* Path relative to public folder */
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+}
+
+
+/* Main title style */
+h1 {
+  color: #ffd701;
+  font-size: 50px;
+  background-color: rgba(53, 32, 69, 0.7);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+/* Form container style */
+#first {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(63, 19, 86, 0.7);
+  color: white;
+  border: 2px solid #ff0000c9;
+  border-radius: 8px;
+}
+
+/* Form title */
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+/* Form row styles */
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  width: 120px;
+  font-size: 18px;
+  color: #ffd701;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ff38a2;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Button style */
+button#formButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #6a0dad;
+  border: 2px solid #ff38a2;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button#formButton:hover {
+  background-color: #541a83;
+}
+
+/* Table styles */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: rgba(53, 32, 69, 0.8);
+  color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 1px solid #ffd701;
+}
+
+th, td {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+th {
+  background-color: #6a0dad;
+  color: #ffd701;
+}
+
+td button {
+  padding: 5px 15px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+td button:hover {
+  background-color: #541a83;
+}
+
+td button:first-of-type {
+  background-color: #4caf50; /* Edit button */
+}
+
+td button:last-of-type {
+  background-color: #f44336; /* Delete button */
+}
